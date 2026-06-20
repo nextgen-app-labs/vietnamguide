@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietnam Guide: Trip Planner - Ultimate Travel Companion</title>
+    <meta name="description" content="Discover famous destinations, plan your itinerary, create vintage postcards, and explore Vietnam seamlessly with our AI Travel Assistant.">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .font-serif-travel { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-stone-50 text-slate-800 antialiased overflow-x-hidden">
+
+    <header class="max-w-6xl mx-auto px-4 py-5 flex justify-between items-center relative z-10">
+        <div class="flex items-center gap-2">
+            <div class="w-10 h-10 bg-emerald-800 rounded-xl flex items-center justify-center text-amber-100 font-bold text-xl shadow-md border border-amber-600/20">🇻🇳</div>
+            <span class="text-xl font-bold tracking-tight font-serif-travel text-emerald-900">Vietnam Guide</span>
+        </div>
+        <div class="hidden sm:flex items-center gap-2 text-sm bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full border border-stone-200 shadow-sm">
+            <span title="English">🇺🇸</span>
+            <span title="Vietnamese">🇻🇳</span>
+            <span title="Korean">🇰🇷</span>
+            <span title="Japanese">🇯🇵</span>
+            <span title="Chinese">🇨🇳</span>
+            <span class="text-xs text-slate-500 font-medium ml-1">5 Languages</span>
+        </div>
+        <a href="https://play.google.com/store/apps/details?id=com.nymdev.vnprovince" class="bg-emerald-800 hover:bg-emerald-900 text-amber-50 font-semibold px-6 py-2 rounded-full transition text-sm tracking-wide shadow-md">
+            Download App
+        </a>
+    </header>
+
+    <section class="max-w-6xl mx-auto px-4 pt-12 pb-20 grid md:grid-cols-2 gap-12 items-center relative">
+        <div class="space-y-6 text-center md:text-left relative z-10">
+            <span class="inline-flex items-center gap-1.5 bg-emerald-100 border border-emerald-200/50 text-emerald-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
+                🌏 Your Smart Pocket Guide
+            </span>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight font-serif-travel text-slate-900">
+                Explore Vietnam Like a <span class="text-emerald-800 italic font-normal">Local</span>
+            </h1>
+            <p class="text-lg text-slate-600 max-w-md mx-auto md:mx-0 leading-relaxed">
+                Discover iconic destinations with concise, detailed local insights. Plan itineraries, generate vintage postcards, log expenses, and navigate effortlessly with an integrated AI Travel Assistant.
+            </p>
+
+            <div class="flex sm:hidden justify-center gap-2 text-sm bg-stone-100 px-4 py-2 rounded-xl max-w-xs mx-auto">
+                <span>🇺🇸</span> <span>🇻🇳</span> <span>🇰🇷</span> <span>🇯🇵</span> <span>🇨🇳</span>
+                <span class="text-xs text-slate-500 font-medium">Multi-lingual</span>
+            </div>
+            
+            <div class="pt-4 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+                <a href="https://play.google.com/store/apps/details?id=com.nymdev.vnprovince" class="bg-slate-900 hover:bg-slate-800 text-white flex items-center justify-center gap-3 px-8 py-3.5 rounded-xl transition shadow-lg group">
+                    <svg class="w-6 h-6 fill-current text-amber-400" viewBox="0 0 24 24">
+                        <path d="M3,5.27V18.73L16.55,12L3,5.27M17.87,11.33L19.5,12.16L17.87,13L16.89,12.16L17.87,11.33M3,3.41L17.14,10.47L15.47,12L3,3.41M3,20.59L15.47,12L17.14,13.53L3,20.59Z"/>
+                    </svg>
+                    <div class="text-left">
+                        <p class="text-[10px] uppercase tracking-wider text-slate-400">Get it on</p>
+                        <p class="text-sm font-bold tracking-wide -mt-0.5">Google Play</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="relative flex justify-center z-10">
+            <div class="absolute -inset-1 bg-gradient-to-r from-emerald-600 to-amber-500 rounded-full blur-3xl opacity-10 w-72 h-72 mx-auto top-10"></div>
+            <div class="relative w-64 h-[500px] bg-slate-950 rounded-[42px] shadow-[0_20px_50px_rgba(0,0,0,0.15)] border-[6px] border-slate-900 overflow-hidden">
+                <div class="w-full h-full bg-gradient-to-b from-emerald-950 to-stone-900 flex flex-col items-center justify-between p-6 text-center text-stone-100">
+                    <div class="pt-8">
+                        <span class="text-5xl mb-4 block drop-shadow-md">🏮</span>
+                        <h3 class="font-bold font-serif-travel text-xl text-amber-100 tracking-wide">Vietnam Guide</h3>
+                        <p class="text-[11px] text-emerald-400 tracking-wider uppercase mt-1">Trip Planner</p>
+                    </div>
+                    
+                    <div class="w-full bg-white/10 backdrop-blur-md border border-white/15 rounded-xl p-4 text-left text-xs space-y-3">
+                        <div class="font-semibold text-amber-200 flex items-center justify-between">
+                            <span>🤖 AI Travel Assistant</span>
+                            <span class="text-[10px] bg-emerald-500 text-slate-950 font-bold px-1.5 py-0.5 rounded">Active</span>
+                        </div>
+                        <div class="text-[11px] text-stone-300 italic">"Where should I eat authentic Pho in Hanoi?"</div>
+                        <div class="h-1 w-full bg-stone-700 rounded-full overflow-hidden">
+                            <div class="h-full w-2/3 bg-amber-400 rounded-full"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white border-t border-b border-stone-200/60 py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-center font-serif-travel text-slate-900 mb-2">Everything You Need For An Epic Journey</h2>
+            <p class="text-center text-slate-500 max-w-md mx-auto mb-12 text-sm">Packed with smart utilities built entirely to make travel stress-free.</p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="p-6 bg-stone-50 rounded-2xl border border-stone-200/60 space-y-3">
+                    <div class="w-10 h-10 bg-emerald-50 text-emerald-800 rounded-xl flex items-center justify-center text-xl">🗺️</div>
+                    <h3 class="font-bold text-base text-slate-900">Curated Destinations</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Explore top famous locations across Vietnam. Packed with concise summaries alongside meticulous, deeply-detailed guide insights.</p>
+                </div>
+                <div class="p-6 bg-stone-50 rounded-2xl border border-stone-200/60 space-y-3">
+                    <div class="w-10 h-10 bg-emerald-50 text-emerald-800 rounded-xl flex items-center justify-center text-xl">📮</div>
+                    <h3 class="font-bold text-base text-slate-900">Vintage Postcards</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Transform your modern captures into beautiful classic postcards to seamlessly immortalize your travel memories.</p>
+                </div>
+                <div class="p-6 bg-stone-50 rounded-2xl border border-stone-200/60 space-y-3">
+                    <div class="w-10 h-10 bg-emerald-50 text-emerald-800 rounded-xl flex items-center justify-center text-xl">🤖</div>
+                    <h3 class="font-bold text-base text-slate-900">AI Travel Assistant</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Got sudden destination questions? Tap your personal smart AI companion to fetch localized recommendations on the go.</p>
+                </div>
+                <div class="p-6 bg-stone-50 rounded-2xl border border-stone-200/60 space-y-3">
+                    <div class="w-10 h-10 bg-emerald-50 text-emerald-800 rounded-xl flex items-center justify-center text-xl">🛂</div>
+                    <h3 class="font-bold text-base text-slate-900">Heritage Passport</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Track cultural spots digitally! Collect stamps as you visit spectacular UNESCO cultural marvels and ancient heritages.</p>
+                </div>
+                <div class="p-6 bg-stone-50 rounded-2xl border border-stone-200/60 space-y-3">
+                    <div class="w-10 h-10 bg-emerald-50 text-emerald-800 rounded-xl flex items-center justify-center text-xl">💳</div>
+                    <h3 class="font-bold text-base text-slate-900">Expense &amp; Currency Tracker</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Log expenses seamlessly, stay perfectly within your set budget, and perform fast currency exchanges without confusing conversions.</p>
+                </div>
+                <div class="p-6 bg-stone-50 rounded-2xl border border-stone-200/60 space-y-3">
+                    <div class="w-10 h-10 bg-emerald-50 text-emerald-800 rounded-xl flex items-center justify-center text-xl">🗣️</div>
+                    <h3 class="font-bold text-base text-slate-900">Phrasebook &amp; Travel Journal</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Bridge conversation gaps instantly using essential phrases. Keep memories alive inside a beautifully integrated personal travel diary.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-4 py-20 text-center space-y-6">
+        <h2 class="text-2xl md:text-4xl font-bold font-serif-travel text-slate-900">Ready to Uncover Vietnam?</h2>
+        <p class="text-slate-600 text-sm max-w-md mx-auto leading-relaxed">
+            Available in English, Vietnamese, Korean, Japanese, and Chinese. Download completely free and map out your dream vacation today!
+        </p>
+        <div class="pt-4">
+            <a href="https://play.google.com/store/apps/details?id=com.nymdev.vnprovince" class="inline-block bg-emerald-800 hover:bg-emerald-900 text-amber-50 font-semibold px-10 py-4 rounded-full transition text-sm tracking-wider shadow-md">
+                START PLANNING FREE NOW
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 text-center py-8 text-xs border-t border-slate-950">
+        <p>&copy; 2026 NextGen App Labs. All rights reserved.</p>
+        <p class="mt-2"><a href="#" class="hover:underline text-stone-300">Privacy Policy</a> | <a href="#" class="hover:underline text-stone-300">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>
